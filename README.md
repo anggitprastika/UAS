@@ -25,7 +25,7 @@ Aplikasi Data Pasien Covid-19 ini untuk menangani data-data pasien covid -19 di 
 Berikut fungsi PHP dari setiap fitur Aplikasi Data Data Pasien Covid-19 :
 1.	Index.php
 Index.php ini merupakan tampilan halaman website setelah user berhasil login. Pada halamain ini menampilkan data pasien covid-19 dari setiap provinsi di Indonesia, data nya meliputi Nama Wilayah, Jumlah Postif, Jumlah  Dirawat, Jumlah Sembuh, Jumlah Meninggal, dengan keterangan Nama Operator dan Nim Mahasiswa sebagai operator.
-Pada halaman ini juga, kita dapat melakukan entri data pasien, edit data , menghapus data dan mencetak data pasien dari masing-masing provinsi. Serta kolom pencarian untuk memudahkan user mencari data.
+Pada halaman ini juga, kita dapat melakukan entri data pasien, edit data , menghapus data dan mencetak data pasien dari masing-masing provinsi. Serta kolom pencarian untuk memudahkan user mencari data. 
 
 2.	koneksi.php
 koneksi.php berfungsi untuk mengkoneksikan atau mengubungkan form dengan database MySQL, sehingga user dapat melakukan operasi CRUD. Dengan menggunakan fugsi mysqli_connect(), yang didalamnya terdapat komponen host, nama database, username dan password.
